@@ -2,6 +2,14 @@ Changelog
 ---------
 
 
+0.12.2 (2018-06-03)
+^^^^^^^^^^^^^^^^^^^
+
+- Fixed IPv4 formatted IP address returning True on ipv6 (#85, pull request courtesy johndlong)
+- Fixed IPv6 address parsing (#83, pull request courtesy JulianKahnert)
+- Fixed domain validator for international domains and certain edge cases (#76, pull request courtesy Ni-Knight)
+
+
 0.12.1 (2018-01-30)
 ^^^^^^^^^^^^^^^^^^^
 
